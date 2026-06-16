@@ -26,4 +26,4 @@ class OpenAIProvider(BaseProvider):
 
             return response.choices[0].message.content
         except RateLimitError:
-            return """OpenAI API quota exceeded.Please check billing and usage settings."""
+            return """OpenAI API quota exceeded.Please use other available models."""
