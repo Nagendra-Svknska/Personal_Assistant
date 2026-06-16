@@ -121,7 +121,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Nagendra Assistant",),
+        title: const Text("Personal Assistant",),
         actions: 
           [
             IconButton

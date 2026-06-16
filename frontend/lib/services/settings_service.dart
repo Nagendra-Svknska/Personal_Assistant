@@ -44,9 +44,7 @@ class SettingsService {
     final prefs =
         await SharedPreferences.getInstance();
 
-    return prefs.getString(
-          'backend_url',
-        ) ??
-        'http://127.0.0.1:8000';
+    // return prefs.getString('backend_url',) ??'http://127.0.0.1:8000';
+    return prefs.getString('backend_url',) ??'https://personal-assistant-4ptl.onrender.com';
   }
 }

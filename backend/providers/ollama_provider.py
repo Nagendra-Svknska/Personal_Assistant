@@ -15,15 +15,23 @@ class OllamaProvider(BaseProvider):
 
     def generate(self, prompt):
 
-        response = requests.post(
-            self.url,
-            json={
-                "model": self.model,
-                "prompt": prompt,
-                "stream": False
-            }
-        )
+        try:
+            response = requests.post(
+                self.url,
+                json={
+                    "model": self.model,
+                    "prompt": prompt,
+                    "stream": False
+                }
+            )
 
-        response.raise_for_status()
+            response.raise_for_status()
 
-        return response.json()["response"]
+            return response.json()["response"]
+        except Exception:
+            return """
+    Ollama is not available.
+
+    You are currently using the cloud deployment.
+    Please switch to Gemini or OpenAI.
+    """

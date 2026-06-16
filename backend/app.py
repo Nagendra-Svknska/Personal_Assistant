@@ -6,6 +6,7 @@ from providers.ollama_provider import OllamaProvider
 from dotenv import load_dotenv
 
 load_dotenv()
+
 app = FastAPI()
 
 app.add_middleware(
