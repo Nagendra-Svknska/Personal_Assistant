@@ -80972,7 +80972,7 @@ case 6:n.aj(new A.afi(n))
 case 1:return A.N(q,r)
 case 2:return A.M(o.at(-1),r)}})
 return A.O($async$oj,r)},
-L(a){var s=this,r=null,q=t.E,p=A.asC(A.d([A.a1H(r,r,B.DH,r,r,new A.afd(a),r,r,r)],q),B.S0),o=s.e.length
+L(a){var s=this,r=null,q=t.E,p=A.asC(A.d([A.a1H(r,r,B.DH,r,r,new A.afd(a),r,r,r)],q),B.RX),o=s.e.length
 o=A.d([A.apv(new A.J0(new A.abo(new A.afe(s),o,!0,!0,!0,r),B.mK,B.aK,!1,r,r,B.zp,!1,r,r,o,B.aD,r,r,B.ad,B.aE,r))],q)
 if(s.f)o.push(B.Ji)
 o.push(A.a8R(A.d([A.apv(new A.cJ(B.j5,A.avU(s.d,B.DM),r)),A.a1H(r,r,B.DI,r,r,s.gXW(),r,r,r)],q),B.bm,B.bp,B.de))
@@ -81039,7 +81039,7 @@ if(p.f)return B.KM
 s=A.asC(o,B.S2)
 r=p.d
 q=t.N
-return A.avp(s,new A.cJ(B.D9,A.Y6(A.d([B.S_,B.yk,A.aq9(r,new A.alf(p),B.RX,"ollama",q),A.aq9(r,new A.alg(p),B.S1,"openai",q),A.aq9(r,new A.alh(p),B.RZ,"gemini",q),B.MF,B.RW,B.yk,A.avU(p.e,B.DL),B.MG,A.iV(new A.HD(p.gXC(),o,o,o,o,o,o,!1,o,!0,o,B.RY,o),o,1/0)],t.E),B.bK,B.bp,B.de),o))}}
+return A.avp(s,new A.cJ(B.D9,A.Y6(A.d([B.S0,B.yk,A.aq9(r,new A.alf(p),B.RY,"ollama",q),A.aq9(r,new A.alg(p),B.S1,"openai",q),A.aq9(r,new A.alh(p),B.S_,"gemini",q),B.MF,B.RW,B.yk,A.avU(p.e,B.DL),B.MG,A.iV(new A.HD(p.gXC(),o,o,o,o,o,o,!1,o,!0,o,B.RZ,o),o,1/0)],t.E),B.bK,B.bp,B.de),o))}}
 A.ali.prototype={
 $0(){var s,r=this.a
 r.d=this.b
@@ -88108,11 +88108,11 @@ B.O1=new A.l(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.RV=new A.dj(B.PL,B.OJ,B.PM,B.Qc,B.Oq,B.Oy,B.P1,B.Q7,B.Pd,B.Qy,B.NV,B.Oc,B.Qv,B.QQ,B.O1)
 B.yJ=new A.l(!0,null,null,null,null,null,18,B.db,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.RW=new A.eS("Backend URL",null,B.yJ,null,null,null,null,null,null)
-B.RX=new A.eS("Ollama Local",null,null,null,null,null,null,null,null)
-B.RY=new A.eS("Save Settings",null,null,null,null,null,null,null,null)
-B.RZ=new A.eS("Gemini",null,null,null,null,null,null,null,null)
-B.S_=new A.eS("Provider",null,B.yJ,null,null,null,null,null,null)
-B.S0=new A.eS("Nagendra Assistant",null,null,null,null,null,null,null,null)
+B.RX=new A.eS("Personal Assistant",null,null,null,null,null,null,null,null)
+B.RY=new A.eS("Ollama Local",null,null,null,null,null,null,null,null)
+B.RZ=new A.eS("Save Settings",null,null,null,null,null,null,null,null)
+B.S_=new A.eS("Gemini",null,null,null,null,null,null,null,null)
+B.S0=new A.eS("Provider",null,B.yJ,null,null,null,null,null,null)
 B.S1=new A.eS("OpenAI",null,null,null,null,null,null,null,null)
 B.S2=new A.eS("Settings",null,null,null,null,null,null,null,null)
 B.Vp=new A.acZ(0,"system")
